@@ -4,10 +4,10 @@
 import time
 
 q = 0.5
-k = 0
-s = 0
+k = 0.0
+s = 0.0
 
-timeout = 0.011   # [seconds] Dauer in der 20. erreicht wird
+timeout = 0.0049   # [seconds] Dauer in der 20. erreicht wird
 
 timeout_start = time.time()
 

@@ -2,7 +2,7 @@
 import time
 
 k = 1
-s = 0
+s = 0.0
 
 timeout = 60   # [seconds]
 
