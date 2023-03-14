@@ -1,6 +1,5 @@
 #Skript zum Berechnen der geometrischen Reihe
 
-#Import der mathematischen Bibliothek
 import time
 
 q = input('Welcher Wert soll für q verwendet werden?')
