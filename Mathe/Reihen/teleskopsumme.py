@@ -4,12 +4,12 @@ import time
 k = 1
 s = 0
 
-timeout = 60   # [seconds]
+timeout = input('Für wie viele Sekunden soll das Skript ausgeführt werden?')  # [seconds]
 
 timeout_start = time.time()
 
 while time.time() < timeout_start + timeout:
     s_temp = 1/(k+1)*k
-    k = k + 1
-    s = s + s_temp
+    k += 1
+    s += s_temp
     print(s)
