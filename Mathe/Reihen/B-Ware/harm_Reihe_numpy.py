@@ -8,7 +8,7 @@ s = cp.array([0], dtype = float128)
 s_temp = cp.array([0], dtype = float128)
 a = cp.array([1], dtype = float128)
 
-timeout = 10   # [seconds]
+timeout = input('Füf wie viele Sekunden soll das Skript ausgeführt werden?')   # [seconds]
 
 timeout_start = time.time()
 
