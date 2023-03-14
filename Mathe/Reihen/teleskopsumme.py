@@ -2,7 +2,7 @@
 import time
 
 k = 1
-s = 0
+s = 0.0
 
 timeout = input('Für wie viele Sekunden soll das Skript ausgeführt werden?')  # [seconds]
 
