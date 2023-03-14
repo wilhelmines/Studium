@@ -3,10 +3,10 @@ import time
 import numpy as np
 import cupy as cp
 
-k = cp.array([1])
-s = cp.array([0])
-s_temp = cp.array([0])
-a = cp.array([1])
+k = cp.array([1], dtype = float128)
+s = cp.array([0], dtype = float128)
+s_temp = cp.array([0], dtype = float128)
+a = cp.array([1], dtype = float128)
 
 timeout = 10   # [seconds]
 
